@@ -24,7 +24,7 @@ async def handle_message(update Update, context ContextTypes.DEFAULT_TYPE)
         write_to_sheet(structured)
         await update.message.reply_text(✅ Data saved to Google Sheet.)
     else
-        await update.message.reply_text(❌ Couldn't extract structured data. Please try again.)
+        await update.message.reply_text("❌ Couldn't extract structured data. Please try again.")
 
 if __name__ == '__main__'
     app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
