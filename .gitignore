@@ -1,1 +1,16 @@
 /.git/
+/.git/.git/
+/COMMIT_EDITMSG
+/FETCH_HEAD
+/HEAD
+/ORIG_HEAD
+/description
+/config
+/index
+/info/
+/logs/
+/objects/
+/refs/
+/hooks/
+.env
+credentials.json
